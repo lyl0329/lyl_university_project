@@ -1,0 +1,161 @@
+* {
+	margin: 0 auto;
+}
+
+#Login_start_ ,#Regist_start_{
+	line-height: 35px;
+	color: #000;
+	/*letter-spacing: 3px;*/
+	background-color: transparent;
+	/*border: 1px solid #000;*/
+	/*border-radius: 5px;*/
+	cursor: pointer;
+	transition: border-color 0.4s linear;
+	background: url("../img/anniu2.png") no-repeat;
+	/*background-attachment: fixed;*/
+	background-size: 100% 100%;
+	border: none;
+	font-size: 2.5rem;
+
+}
+a:active, a:active{
+	position: relative;
+	top: 6px;
+}
+
+#_start {
+	/*position:absolute;*/
+	height: 0px;
+	width: 0px;
+	background-color: rgb(214, 233, 198,0.5);
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 15px;
+}
+
+#_close {
+	float: right;
+	height: 40px;
+	width: 40px;
+	background: none;
+	color: white;
+	/*border-left: 1px solid white;
+	border-bottom: 1px solid white;*/
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+
+#login_container,
+#regist_container {
+	width: 360px;
+	text-align: center;
+	display: none;
+	margin-top: 10px;
+}
+
+#lab1 {
+	width: 330px;
+	border-bottom: 1px solid #000000;
+	text-align: left;
+	font-family: '微软雅黑';
+}
+
+#lab_login {
+	font-size: 30px;
+	height: 40px;
+	color: #000000;
+}
+
+#lab_toRegist,
+#lab_toLogin {
+	font-size: 15px;
+	line-height: 55px;
+	float: right;
+	color: #000000;
+}
+
+#lab_type1,
+#lab_type2 {
+	font-size: 16px;
+	float: left;
+	color: #8C8C8C;
+}
+
+#login_number,
+#login_password,
+#captcha,
+#createCheckCode {
+	height: 42px;
+	border-radius: 0;
+	margin-top: 15px;
+}
+#captcha{
+	float:left;
+}
+#createCheckCode{
+	float:right;
+}
+
+/* 注册表单 开始 */
+
+#regist_account,
+#regist_password1,
+#regist_password2,
+#regist_phone,
+#regist_vcode {
+	height: 42px;
+	border-radius: 0;
+	margin-top: 15px;
+}
+
+#regist_vcode {
+	width: 200px;
+	display: inline-block;
+	float: left;
+}
+
+
+/* 注册表单 结束 */
+
+
+/*登录注册按钮*/
+
+#login_btn,
+#regist_btn {
+	width: 330px;
+	height: 40px;
+	border-radius: 0;
+	margin-top: 20px;
+}
+
+/*登陆表单容器*/
+
+#form_container1 {
+	width: 330px;
+	height: 180px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-top: 20px;
+}
+
+
+/*注册表单容器*/
+
+#form_container2 {
+	width: 330px;
+	height: 225px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-top: -15px;
+}
+#hint{
+	position:fixed;
+	right:46%;
+}
+/*判断提示信息*/
+p{
+	
+	color:#000;
+	width:300px;
+	height:40px;
+}

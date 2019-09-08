@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width; initial-scale=1.0">
+<title>Insert title here</title>
+<!--  <%@include file="/html/music.html"%>-->
+</head>
+<body>
+<div style="width:36px; height:36px;float:right;position:absolute;z-index:13;top:100px;right:10px;cursor: pointer;">
+				<audio id="music" src="../music/Sing.mp3" autoplay="autoplay" loop="loop">
+				<source src="../music/Sing.mp3" type="audio/mp3">
+				</audio>
+				<a id="audio_btn"><img src="../img/laba1.png" width="48" height="50" id="music_btn" border="0"></a>
+</div>
+<!--背景音乐-->
+<script src="../js/jquery-1.8.2.min.js"></script>
+		<script>
+			$("#audio_btn").click(function() {
+				var music = document.getElementById("music");
+				if(music.paused) {
+					music.play();
+					$("#music_btn").attr("src", "../img/laba1.png");
+				} else {
+					music.pause();
+					$("#music_btn").attr("src", "../img/laba2.png");
+				}
+			});
+
+			function playPause() {
+				var music = document.getElementById('music2');
+				var music_btn = document.getElementById('music_btn2');
+				if(music.paused) {
+					music.play();
+					music_btn.src = '../img/laba1.png';
+				} else {
+					music.pause();
+					music_btn.src = '../img/laba2.png';
+				}
+			}
+		</script>
+</body>
+</html>
