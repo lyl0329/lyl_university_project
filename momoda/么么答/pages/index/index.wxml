@@ -1,0 +1,53 @@
+<!--pages/eight/eight.wxml-->
+<view>
+  
+  <image src='/images/beijing4.jpg' class='bg'></image> 
+  <view class='all'>
+    <view class='top'>
+      <image src='/images/t5.png' class='mmd'></image>
+      <image src='/images/guize.png' class='guize'></image>
+      <view class="mask" catchtouchmove="preventTouchMove" wx:if="{{showModal}}"></view>
+      <view class="modalDlg" wx:if="{{showModal}}">
+        <image src='/images/png4.png' class='guizeimg'></image> 
+        <view bindtap="go" class='b1'>×</view>
+        <view class='b'><text>游戏规则</text></view>
+        <view class='c'><text> 1. 竞技形式分为专业对抗赛和休闲娱乐对抗赛：系统将根据个人实力匹配到实力与之相同的用户，从题库随机抽取题目分配给双方，用户在规定时间内回答该题，时间结束后系统将自动抽取下一题。依据得分判断胜负。
+    2. 好友对战：用户可邀请多名好友参与答题，邀请方可选择具体的题目类型进行比赛。系统将根据个人得分进行排名。
+          </text></view>
+      </view>
+      <view class='guizezi' bindtap='submit'><text>规 则</text></view>
+      <image src='/images/zi.png' class='mmdzi' bindtap='onProductsBottomItemTap1'></image>
+    </view>
+
+    <view class='others'>
+      <view class='ziyoudatitouming'  bindtap='onProductsItemTap1'></view>
+      <view class='ziyoudati'>
+          <image src='/images/ziyoudati7.png' class='ziyoudatiimg'></image>
+          <text class='ziyoudatitext'>自由答题</text>
+      </view>
+      <view class='touminghaoyoupk' bindtap=''></view>
+      <view class='haoyoupk'>
+        <text class='haoyoupktext'>好友PK</text>
+        <image src='/images/pk1.png' class='haoyoupkimg'></image>
+      </view>
+      <view class='paiweisai' bindtap='onProductsItemTap3'>
+        <text class='paiweisaitext'>排位赛</text>
+        <image src='/images/paiweisai.png' class='paiweisaiimg'></image>
+      </view>
+      <view class='touminggerenzhongxin' bindtap='onProductsBottomItemTap3'></view>
+      <view class='gerenzhongxin'>
+        <text class='gerenzhongxintext'>个人中心</text>
+        <image src='/images/gerenzhongxin1.png' class='gerenzhongxinimg'></image>
+      </view>
+      <view class='paihangbang' bindtap='onProductsBottomItemTap2'>     
+        <image src='/images/paihangbang2.png' class='paihangbangimg'></image>
+        <text class='paihangbangtext'>排行榜</text>
+      </view>
+      <view class='jingqingqidai'>     
+        <image src='/images/jingqingqidai.png' class='jingqingqidaiimg'></image>
+        <text class='jingqingqidaitext' space="nbsp">更多精彩 敬请期待</text>
+      </view>
+    </view>
+  </view>
+</view>
+

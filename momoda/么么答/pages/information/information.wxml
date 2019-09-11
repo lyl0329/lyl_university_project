@@ -1,0 +1,15 @@
+<view> 
+<image src='/images/jpg1.jpeg' class='bg'></image>
+  <view class='top'>
+    <image src='/images/paihangbangzi.png' class='topimg'></image>
+    <text class='toptext'>排行榜</text>
+  </view>
+  <view wx:for="{{list}}"  wx:key="{{index}}" class="item">   
+    <view style="{{item.txtStyle}}" class="inner txt">
+        <i>{{item.id}}</i>
+        <image class="item-icon" src="{{item.icon}}"></image>
+        <i> {{item.name}}</i>
+        <i class="rankpace"> {{item.pace}}</i>
+    </view>
+  </view>
+</view>

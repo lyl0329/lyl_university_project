@@ -1,0 +1,47 @@
+/* pages/haoyoupk/haoyoupk.wxss */
+.bg{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.jiange{
+
+  height: 10px;
+}
+
+.lianggetouxiang{
+  width: 100%;
+  height: 200rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: relative;
+}
+
+.title{
+    width: 32%;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ffffff;
+    background-color:rgb(236,80,81);
+    font-size: 30px;
+    position: relative;
+}
+
+.about-banner{
+  width:200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  position: relative;
+}

@@ -1,0 +1,7 @@
+<!--pages/haoyoupk/haoyoupk.wxml-->
+<view class='container'>
+<image class="bg" src='/images/beijing4.jpg' mode='scaleToFill'></image>
+  <view class='title'>么么答</view>
+  <view class='jiange'></view>
+  <image class='about-banner' src='{{userInfo.avatarUrl}}'></image>
+</view>

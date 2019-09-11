@@ -1,0 +1,9 @@
+.ns {
+   width: 100%;
+   height: 135rpx;
+   text-align:center;
+   line-height: 155rpx; 
+   color: white;
+   font-weight:bold;
+   background:linear-gradient( rgb(173, 225, 255) , #614AF8);
+}

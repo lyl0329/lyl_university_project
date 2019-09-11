@@ -1,0 +1,20 @@
+{
+  "pages":[
+    "pages/index/index",
+      "pages/login/login",
+    "pages/rank/rank",
+  
+    
+    "pages/ziyoudati/ziyoudati",
+    "pages/information/information",
+    "pages/paiweisai/paiweisai", 
+    "pages/haoyoupk/haoyoupk"
+    
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor":"white",
+    "navigationBarTitleText":"么么答",
+    "navigationBarTextStyle":"black"
+  }
+}
