@@ -1,0 +1,152 @@
+.container{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}  
+.bg{
+  position:fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.title { 
+  width: 500rpx; 
+  height: 14vh; 
+  position: absolute;
+  margin: -2vh 0 0 -5rpx;
+} 
+.title1{
+  margin-left: 25rpx;
+  font-size: 5vh;
+  position: relative;
+  margin-top: 1vh;
+  letter-spacing: 20rpx;
+}
+
+.about-banner{
+  width:100rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  position: absolute;
+  margin-top: 12vh;
+}
+
+.item{
+  margin-top: 16vh;
+  margin-bottom: 1vh;
+  align-items: center;
+  justify-content: center;
+  color: #130909;
+  width: 710rpx;
+  position: relative;
+  margin-left: 5rpx;
+  font-weight: bold;
+}
+.middle{
+  position: relative;
+  margin-top: 1vh;
+}
+.item1{
+  padding-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  color: #130909;
+  width: 710rpx;
+  margin-left: 5rpx;
+  line-height:0.5vh;
+   display: table;
+} 
+.item2{
+  padding-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  color: #130909;
+  width: 710rpx;
+  margin-left: 5rpx;
+}
+.item3{
+  padding-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  color: #130909;
+  width: 710rpx;
+  margin-left: 5rpx;
+}
+.item4{
+  padding-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  color: #130909;
+  width: 710rpx;
+  margin-left: 5rpx;
+}
+.textcss{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ padding-bottom: 1.5vh;
+ padding-top: 1.5vh;
+ line-height: 5vh;
+}
+
+/* page{  
+  width:100%;  
+  height:100%;  
+}
+.contain{
+  position: absolute;
+  width:100%;  
+  height:100%;
+}
+.question{
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  font-size: 18px;
+}
+.question button{
+  height: 60rpx;
+  width: 100%;
+  font-size: 13px;
+}
+.count{
+  height: 80rpx;
+  line-height: 80rpx;
+  width: 100%;
+  font-size: 13px;
+  text-align: center;
+}
+.show{
+  height: 60rpx;
+  line-height: 60rpx;
+  width: 46%;
+  font-size: 13px;
+  text-align: center;
+} */
+.wenzi{
+  color: rgb(17, 14, 14);
+  position: relative;
+  margin-top: 1.5vh;
+  margin-left: 4vw;
+}
+
+.buttom{
+  margin-top: 2vh;
+}
+.button{
+  position: relative; 
+  margin-top: 3vh;
+  width: 250rpx;
+}
+.panduan{
+  position: absolute;
+  margin-top: 1vh;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;  
+  margin-left:2rpx;
+}

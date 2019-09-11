@@ -1,0 +1,16 @@
+<view class="container"> 
+  <image src='/images/ownbg5.jpeg' class='bg'></image>
+  <view class="container1">
+    <image class='ownbg' src='/images/own.png'></image>
+    <image class="user" src='{{userInfo.avatarUrl}}'></image>
+    <text style='font-size: 35rpx'  space="emsp" class='ownzi'>金币：270   钻石：0</text>
+  </view>
+  <view class='radarContainer'> 
+    <canvas class='radarCanvas' canvas-id='radarCanvas'></canvas>
+  </view>
+  <view class="container2">
+    <text style='font-size: 30rpx'  space="nbsp">用户编号：245561030       段位：入门新手</text>
+    <text style='font-size: 30rpx'  space="nbsp">胜率：100%                      总场次：3</text>
+    <text style='font-size: 30rpx' space="nbsp">经验：2/7                          胜场：3</text>
+  </view>
+</view>

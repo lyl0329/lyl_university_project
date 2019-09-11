@@ -1,0 +1,18 @@
+<view class='container'>
+
+<image  class='beijing' src='/images/beijing2.png'></image>
+<!-- 
+  <scroll-view class='scroll_notice'>
+<view class='scroll_notice_item_bg' animation="{{animationData_notice}}">
+<view class='scroll_notice_item'>开  启  么  么  答  之  旅</view>
+</view>
+</scroll-view> -->
+ <image class="about-banner" src='/images/logo1.png'></image>
+ <image class="denglu" src='/images/denglu.png' bindtap='loadingTap' open-type='getUserInfo'></image>
+ <!-- <view class='wenzishuiyin1' >
+   <view class='wenzi' style='opacity:0.2'>`超 纲 题 我 也 会</view>
+ </view> -->
+ <loading hidden="{{loadingHidden}}">
+	加载中...
+</loading>
+</view>

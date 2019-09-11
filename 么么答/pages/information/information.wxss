@@ -1,0 +1,63 @@
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  
+}
+.top{
+  position:relative;
+  z-index: 2;
+  height: 18vh;
+  width: 100%;
+}
+.topimg{
+  position: absolute;
+  height: 17vh;
+  width: 600rpx;
+  z-index: 1;
+  margin: 1vh -10rpx 1vh 85rpx;
+}
+.toptext{
+  position: absolute;
+  z-index: 2;
+  font-size: 100rpx;
+  margin: 3vh -100rpx 0 240rpx;
+}
+.item{
+    position: relative;
+    border-top: 2rpx solid #eee;
+    height: 120rpx;
+    line-height: 120rpx;
+    overflow: hidden; 
+    z-index: 2;
+}
+.inner{
+    position: absolute;
+}
+.inner.txt{
+    width: 100%;
+    z-index: 2;
+    padding:0 10rpx;
+    white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+
+.item-icon{
+    width: 64rpx;
+    height: 64rpx;
+    vertical-align: middle;
+    margin-right: 16rpx;
+    margin-left:13px;
+    border-radius:50%;
+ 
+}
+.rankpace{
+  margin-right:5%;
+  color: #be2105;
+  float: right;
+}
